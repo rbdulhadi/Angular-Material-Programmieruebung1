@@ -1,0 +1,13 @@
+import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
+
+@Component({
+  selector: 'app-header',
+  imports: [RouterModule],
+  templateUrl: './header.html',
+  styleUrl: './header.scss',
+})
+export class Header {
+  public title: string = 'Stay Active, Stay Together';
+  public imagePath: string = 'assets/images/sport.jpg';
+}

@@ -1,0 +1,38 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  gap: 1rem;                   
+  padding: 1rem 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.flex h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.flex img {
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.flex nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.flex a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.flex a:hover {
+  color: #005fa3;
+}

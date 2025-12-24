@@ -1,0 +1,8 @@
+<app-header></app-header>
+<router-outlet></router-outlet>
+
+@if (store.isLoading()) {
+<div class="loading-overlay">
+  <mat-progress-spinner mode="indeterminate"></mat-progress-spinner>
+</div>
+}

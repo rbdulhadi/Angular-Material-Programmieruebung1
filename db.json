@@ -1,0 +1,232 @@
+{
+  "courses": [
+    {
+      "id": "_iL775j",
+      "name": "Schnuppertauchen",
+      "instructor": "Maximilian Tiefgang",
+      "dates": [
+        {
+          "begin": "2024-11-13T17:00:00",
+          "end": "2024-11-13T19:00:00"
+        },
+        {
+          "begin": "2024-11-14T17:00:00",
+          "end": "2024-11-14T19:00:00"
+        }
+      ],
+      "eventLocationId": 1
+    },
+    {
+      "id": "_iL775p",
+      "name": "Reiten",
+      "instructor": "Cowboy Tim",
+      "dates": [
+        {
+          "begin": "2024-11-13T17:00:00",
+          "end": "2024-11-13T19:00:00"
+        },
+        {
+          "begin": "2024-11-14T17:00:00",
+          "end": "2024-11-14T19:00:00"
+        }
+      ],
+      "eventLocationId": 2
+    },
+    {
+      "id": "_iL775o",
+      "name": "Tennis",
+      "instructor": "Cowboy Tim",
+      "dates": [
+        {
+          "begin": "2024-11-13T17:00:00",
+          "end": "2024-11-13T19:00:00"
+        },
+        {
+          "begin": "2024-11-14T17:00:00",
+          "end": "2024-11-14T19:00:00"
+        }
+      ],
+      "eventLocationId": 2
+    },
+    {
+      "id": "_iL175j",
+      "name": "Yoga",
+      "instructor": "Manuela Ganzentspannt",
+      "dates": [
+        {
+          "begin": "2024-11-13T17:00:00",
+          "end": "2024-11-13T19:00:00"
+        },
+        {
+          "begin": "2024-11-14T17:00:00",
+          "end": "2024-11-14T19:00:00"
+        }
+      ],
+      "eventLocationId": 3
+    },
+    {
+      "id": "alg_prog_ws25",
+      "name": "Algorithmen und Programmiertechniken - ILV - BSWE-3B, 3C - WS2025",
+      "instructor": "Sailer/Saip",
+      "dates": [
+        {
+          "begin": "2025-10-01T08:00:00",
+          "end": "2025-10-01T11:00:00"
+        },
+        {
+          "begin": "2025-10-08T08:00:00",
+          "end": "2025-10-08T11:00:00"
+        }
+      ],
+      "eventLocationId": 4
+    },
+    {
+      "id": "berufspraktikum_2026",
+      "name": "BSWE Berufspraktikum - Studienjahr 2026/27",
+      "instructor": "Jahrgang 2024",
+      "dates": [
+        {
+          "begin": "2026-09-01T09:00:00",
+          "end": "2026-09-01T17:00:00"
+        }
+      ],
+      "eventLocationId": 4
+    },
+    {
+      "id": "js_prog_ss25",
+      "name": "FF Programmieren in JavaScript SS25 (Knipp)",
+      "instructor": "Knipp",
+      "dates": [
+        {
+          "begin": "2025-03-01T10:00:00",
+          "end": "2025-03-01T13:00:00"
+        },
+        {
+          "begin": "2025-03-08T10:00:00",
+          "end": "2025-03-08T13:00:00"
+        }
+      ],
+      "eventLocationId": 4
+    },
+    {
+      "id": "hid_ws25",
+      "name": "Human Interface Design - ILV - BSWE-3B, 3C - WS2025",
+      "instructor": "Schabasser/Kammerhofer-Reischl",
+      "dates": [
+        {
+          "begin": "2025-10-02T14:00:00",
+          "end": "2025-10-02T17:00:00"
+        },
+        {
+          "begin": "2025-10-09T14:00:00",
+          "end": "2025-10-09T17:00:00"
+        }
+      ],
+      "eventLocationId": 4
+    },
+    {
+      "id": "komm_engl_ws25",
+      "name": "Kommunikation Englisch III - UE - BSWE-3B, 3C - WS2025",
+      "instructor": "Bicman/Deissl-O'Meara",
+      "dates": [
+        {
+          "begin": "2025-10-03T09:00:00",
+          "end": "2025-10-03T11:00:00"
+        },
+        {
+          "begin": "2025-10-10T09:00:00",
+          "end": "2025-10-10T11:00:00"
+        }
+      ],
+      "eventLocationId": 4
+    },
+    {
+      "id": "proj_man_ws25",
+      "name": "Projektmanagement I - ILV - BSWE-3B, 5C - WS2025",
+      "instructor": "Pausch",
+      "dates": [
+        {
+          "begin": "2025-10-04T08:00:00",
+          "end": "2025-10-04T11:00:00"
+        },
+        {
+          "begin": "2025-10-11T08:00:00",
+          "end": "2025-10-11T11:00:00"
+        }
+      ],
+      "eventLocationId": 4
+    },
+    {
+      "id": "soft_design_ws25",
+      "name": "Softwaredesign und Frameworks für vernetzte Systeme - ILV - BSWE-3B, 5C - WS2025",
+      "instructor": "Knipp/Sailer",
+      "dates": [
+        {
+          "begin": "2025-10-05T13:00:00",
+          "end": "2025-10-05T16:00:00"
+        },
+        {
+          "begin": "2025-10-12T13:00:00",
+          "end": "2025-10-12T16:00:00"
+        }
+      ],
+      "eventLocationId": 4
+    },
+    {
+      "id": "soft_man_ws25",
+      "name": "Softwaremanagement II - ILV - BSWE-3B, 5C - WS2025",
+      "instructor": "DMP",
+      "dates": [
+        {
+          "begin": "2025-10-06T10:00:00",
+          "end": "2025-10-06T13:00:00"
+        },
+        {
+          "begin": "2025-10-13T10:00:00",
+          "end": "2025-10-13T13:00:00"
+        }
+      ],
+      "eventLocationId": 4
+    }
+  ],
+  "eventLocations": [
+    {
+      "id": 1,
+      "name": "Schwimmbad Kleines Wien",
+      "address": "Schwimmbadgasse 21, 1220 Wien",
+      "venueByPublicTansport": true
+    },
+    {
+      "id": 2,
+      "name": "Reitclub Amstetten",
+      "address": "Galoppstrecke 1, 3300 Amstetten",
+      "venueByPublicTansport": false
+    },
+    {
+      "id": 3,
+      "name": "Yogastudio Ruheoase",
+      "address": "Schwimmbadgasse 21, 1220 Wien",
+      "venueByPublicTansport": true
+    },
+    {
+      "id": 4,
+      "name": "FH Burgenland",
+      "address": "Campus 1, 7000 Eisenstadt",
+      "venueByPublicTansport": true
+    }
+  ],
+  "registrations": [
+    {
+      "name": "Elefant",
+      "birthdate": "2022-11-26",
+      "courseId": "_iL775p",
+      "id": 2
+    },
+    {
+      "name": "Esel",
+      "birthdate": "2022-11-26",
+      "courseId": "_iL175j",
+      "id": 3
+    }
+  ]
+}

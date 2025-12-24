@@ -1,0 +1,6 @@
+Begründung der Grid-Technologie: CSS Grid vs. Bootstrap Grid
+
+Entscheidung: CSS Grid wurde für die Implementierung der Tabellen-Layouts gewählt.
+
+CSS Grid wurde gewählt, da es eine moderne, native Lösung ist, die keine zusätzlichen Dependencies erfordert und gleichzeitig die volle Kontrolle über das Layout bietet. Die Implementierung nutzt die Stärken von CSS Grid (präzise Spaltenpositionierung, automatische Row-Erstellung) kombiniert mit Flexbox (horizontale und vertikale Zentrierung) für ein optimales, responsives Layout. Dies passt perfekt zu den Anforderungen: 10 Spalten zentriert im Desktop-Mode mit zentriertem Content in allen Spalten, und 12 Spalten vollbreit im Mobile-Mode mit vertikalem Stacking der Elemente.
+

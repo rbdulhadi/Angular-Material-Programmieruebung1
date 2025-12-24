@@ -1,0 +1,50 @@
+<div class="data-container">
+  <h1>Alle Kurse</h1>
+  <div class="grid-container courses-grid">
+    <div class="grid-header">Kurs</div>
+    <div class="grid-header">Veranstaltungsort</div>
+    <div class="grid-header">Adresse des Veranstaltungsortes</div>
+    <div class="grid-header">Öffentlich erreichbar?</div>
+    <div class="grid-header">Kursleiter</div>
+    <div class="grid-header">Alle Termine</div>
+
+    @for(course of store.courses; track $index) {
+    <div class="grid-cell">{{ course.name }}</div>
+    <div class="grid-cell">{{ course.eventLocation.name }}</div>
+    <div class="grid-cell">{{ course.eventLocation.address }}</div>
+    <div class="grid-cell">
+      {{ course.eventLocation.venueByPublicTansport == true ? 'Ja' : 'Nein' }}
+    </div>
+    <div class="grid-cell">{{ course.instructor }}</div>
+    <div class="grid-cell">
+      <ul>
+        @for(date of course.dates; track $index) {
+        <li>
+          <span>{{ date.begin | date : "MMM dd, yyyy 'um' hh:mm a" }}</span> -
+          <span>{{ date.end | date : "MMM dd, yyyy 'um' hh:mm a" }}</span>
+        </li>
+        }
+      </ul>
+    </div>
+    }
+  </div>
+
+  <h1>Alle Anmeldungen</h1>
+  <div class="grid-container registrations-grid">
+    <div class="grid-header">Name</div>
+    <div class="grid-header">Geburtsdatum</div>
+    <div class="grid-header">Kurs</div>
+    <div class="grid-header">Aktion</div>
+
+    @for(registration of store.registrations; track $index) {
+    <div class="grid-cell">{{ registration.name }}</div>
+    <div class="grid-cell">{{ registration.birthdate }}</div>
+    <div class="grid-cell">{{ registration.course?.name }}</div>
+    <div class="grid-cell">
+      <button mat-raised-button color="warn" (click)="deleteRegistration(registration.id)">
+        Anmeldung löschen
+      </button>
+    </div>
+    }
+  </div>
+</div>
